@@ -3,7 +3,7 @@
     <div class="container">
       <h3 class="text-center my-4 text-danger">1/25-1/31 蝦皮全站折扣碼</h3>
       <p class="text-center text-warning-emphasis">點擊日期後至「優惠代碼區」直接「貼上」</p>
-      <p class="text-center text-danger fw-bolder" style="font-size: 13px;">序號於點擊時已經「自動複製」了喲</p>
+      <p class="text-center text-danger fw-bolder" style="font-size: 13px;">* 序號於點擊時已經「自動複製」了喲 *</p>
       <div class="d-flex justify-content-center">
         <img src="https://i.imgur.com/syIBSGu.jpeg" alt="" class="w-75" />
       </div>
