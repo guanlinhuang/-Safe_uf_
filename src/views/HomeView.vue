@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="d-flex justify-content-center pt-2">
-          <img src="https://i.ibb.co/7dL5bF83/B-0.png" alt="" class="w-75" />
+          <img src="https://i.ibb.co/hRtJS9Vr/B-0.png" alt="" class="w-75" />
         </div>
       </div>
       <div class="pt-5">
@@ -42,7 +42,7 @@
       </p>
       </div>
       <div class="d-flex justify-content-center">
-        <img src="https://i.ibb.co/nMZdDgT8/A-0.png" alt="" class="w-75" />
+        <img src="https://i.ibb.co/HT2HxQ0B/A-0.png" alt="" class="w-75" />
       </div>
       <h6 class="text-center mb-0 pt-4">此由ㄚㄋㄚˋ直播主彙整</h6>
       <div class="mt-4">
@@ -154,7 +154,7 @@
         </div>
       </div>
       <div class="d-flex mt-5 justify-content-center">
-        <img src="https://i.ibb.co/DHDNvCyy/C.png" alt="" class="w-75" />
+        <img src="https://i.ibb.co/Cps4TV3s/C.png" alt="" class="w-75" />
       </div>
       <div class="mt-5">
         <div class="row row-cols-1 w-75 mx-auto g-3">
@@ -176,13 +176,22 @@
             >
           </div>
           <div>
-            <img src="https://i.ibb.co/NgZcsjkW/D.png" alt="" class="w-100" />
+            <img src="https://i.ibb.co/FZKvGQv/D.png" alt="" class="w-100" />
           </div>
         </div>
         <div class="pt-5">
       <p class="text-center mb-1">6/18關注ㄚㄋㄚˋ直播間隨機抽</p>
-      <p class="text-center">99-20、100-20、59-10折扣券</p></div>
+      <p class="text-center mb-0">99-20、100-20、59-10折扣券</p>
+      <div class="d-flex justify-content-center">
+     <button
+              type="button"
+              class="btn"
+              @click="copyCuponCode('B7W3QTRZN')" style="color:#FF95CA"
+            >
+              <i class="bi bi-box2-heart-fill"></i>
+            </button></div>
       </div>
+    </div>
     </div>
     <div
       class="follow d-flex justify-content-center py-3 bg-black align-items-center"
