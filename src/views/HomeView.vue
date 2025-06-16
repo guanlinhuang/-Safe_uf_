@@ -2,17 +2,7 @@
   <div class="home">
     <div class="container">
       <h3 class="text-center my-4 text-danger">618全民年中慶</h3>
-      <p class="text-center text-warning-emphasis">
-        點擊日期後至「優惠代碼區」直接「貼上」
-      </p>
-      <p class="text-center text-danger fw-bolder" style="font-size: 10px">
-        * 序號於點擊時已經「自動複製」了喲 *
-      </p>
-      <div class="d-flex justify-content-center">
-        <img src="https://i.ibb.co/nMZdDgT8/A-0.png" alt="" class="w-75" />
-      </div>
-      <h4 class="text-center mb-0 pt-4">此由ㄚㄋㄚˋ直播主彙整</h4>
-      <div class="mt-4">
+       <div class="mt-4">
         <h3 class="text-center mb-0">618購物節年中慶活動、免運一次看！</h3>
         <div class="row w-75 mx-auto pt-2">
           <div class="col ps-0">
@@ -43,7 +33,19 @@
           <img src="https://i.ibb.co/7dL5bF83/B-0.png" alt="" class="w-75" />
         </div>
       </div>
-      <div class="mt-5">
+      <div class="pt-5">
+      <p class="text-center text-warning-emphasis">
+        點擊日期後至「優惠代碼區」直接「貼上」
+      </p>
+      <p class="text-center text-danger fw-bolder" style="font-size: 13px">
+        * 序號於點擊時已經「自動複製」了喲 *
+      </p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <img src="https://i.ibb.co/nMZdDgT8/A-0.png" alt="" class="w-75" />
+      </div>
+      <h6 class="text-center mb-0 pt-4">此由ㄚㄋㄚˋ直播主彙整</h6>
+      <div class="mt-4">
         <h3 class="text-center mb-0 text-info">四大超商取件滿$299-$30</h3>
         <div class="row row-cols-1 g-3 pt-2">
           <div class="col d-flex justify-content-center">
@@ -52,7 +54,7 @@
               class="btn btn-warning w-75"
               @click="copyCuponCode('SPSV6')"
             >
-              全站711
+              全站 711
             </button>
           </div>
           <div class="col d-flex justify-content-center">
@@ -61,7 +63,7 @@
               class="btn btn-warning w-75"
               @click="copyCuponCode('FMSP')"
             >
-              全站全家
+              全站 全家
             </button>
           </div>
           <div class="col d-flex justify-content-center">
@@ -70,7 +72,7 @@
               class="btn btn-warning w-75"
               @click="copyCuponCode('APSEVEN6')"
             >
-              商城711
+              商城 711
             </button>
           </div>
           <div class="col d-flex justify-content-center">
@@ -79,7 +81,7 @@
               class="btn btn-warning w-75"
               @click="copyCuponCode('APP618FM')"
             >
-              商城全家
+              商城 全家
             </button>
           </div>
           <div class="col d-flex justify-content-center">
@@ -88,7 +90,7 @@
               class="btn btn-warning w-75"
               @click="copyCuponCode('HLAPP6')"
             >
-              商城萊爾富
+              商城 萊爾富
             </button>
           </div>
           <div class="col d-flex justify-content-center">
@@ -97,7 +99,7 @@
               class="btn btn-warning w-75"
               @click="copyCuponCode('OK6APP')"
             >
-              商城OK
+              商城 OK
             </button>
           </div>
         </div>
@@ -164,7 +166,7 @@
             >
           </div>
           <div class="col px-0">
-            <a href="https://s.shopee.tw/7fNyqny63" class="btn btn-danger w-100"
+            <a href="https://s.shopee.tw/7fNyqny636" class="btn btn-danger w-100"
               >𝟏𝟖號加碼再送100蝦</a
             >
           </div>
