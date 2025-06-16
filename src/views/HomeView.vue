@@ -1,304 +1,185 @@
 <template>
   <div class="home">
     <div class="container">
-      <h3 class="text-center my-4 text-danger">1/25-1/31 蝦皮全站折扣碼</h3>
-      <p class="text-center text-warning-emphasis">點擊日期後至「優惠代碼區」直接「貼上」</p>
-      <p class="text-center text-danger fw-bolder" style="font-size: 13px;">* 序號於點擊時已經「自動複製」了喲 *</p>
+      <h3 class="text-center my-4 text-danger">618全民年中慶</h3>
+      <p class="text-center text-warning-emphasis">
+        點擊日期後至「優惠代碼區」直接「貼上」
+      </p>
+      <p class="text-center text-danger fw-bolder" style="font-size: 10px">
+        * 序號於點擊時已經「自動複製」了喲 *
+      </p>
       <div class="d-flex justify-content-center">
-        <img src="https://i.imgur.com/syIBSGu.jpeg" alt="" class="w-75" />
+        <img src="https://i.ibb.co/nMZdDgT8/A-0.png" alt="" class="w-75" />
       </div>
-      <div class="100-20 mt-4">
-        <h3 class="text-center mb-0">ㄚㄋㄚˋ+碼全站</h3>
-        <p class="text-center mb-0" style="font-size: 23px">100-20</p>
-        <div class="row row-cols-1 g-3">
-          <div
-            class="col d-flex justify-content-center d-flex justify-content-center"
-          >
+      <h4 class="text-center mb-0 pt-4">此由ㄚㄋㄚˋ直播主彙整</h4>
+      <div class="mt-4">
+        <h3 class="text-center mb-0">618購物節年中慶活動、免運一次看！</h3>
+        <div class="row w-75 mx-auto pt-2">
+          <div class="col ps-0">
+            <a
+              href="https://s.shopee.tw/10rCQCKYfi"
+              class="btn btn-danger w-100"
+              >1</a
+            >
+          </div>
+          <div class="col pe-0">
+            <a
+              href="https://s.shopee.tw/5AgfqFQkYl"
+              class="btn btn-danger w-100"
+              >2</a
+            >
+          </div>
+        </div>
+        <div class="row w-75 mx-auto pt-2">
+          <div class="col px-0">
+            <a
+              href="https://s.shopee.tw/5VI2lgm0ob"
+              class="btn btn-danger w-100"
+              >直播活動券預先領</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center pt-2">
+          <img src="https://i.ibb.co/7dL5bF83/B-0.png" alt="" class="w-75" />
+        </div>
+      </div>
+      <div class="mt-5">
+        <h3 class="text-center mb-0 text-info">四大超商取件滿$299-$30</h3>
+        <div class="row row-cols-1 g-3 pt-2">
+          <div class="col d-flex justify-content-center">
             <button
               type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('WGRFUWH8T')"
+              class="btn btn-warning w-75"
+              @click="copyCuponCode('SPSV6')"
             >
-              1/25
+              全站711
             </button>
           </div>
           <div class="col d-flex justify-content-center">
             <button
               type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('F7DT7K2CQ')"
+              class="btn btn-warning w-75"
+              @click="copyCuponCode('FMSP')"
             >
-              1/26
+              全站全家
             </button>
           </div>
           <div class="col d-flex justify-content-center">
             <button
               type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('FQKDVG4E2')"
+              class="btn btn-warning w-75"
+              @click="copyCuponCode('APSEVEN6')"
             >
-              1/27
+              商城711
             </button>
           </div>
           <div class="col d-flex justify-content-center">
             <button
               type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('TLXVWBFT5')"
+              class="btn btn-warning w-75"
+              @click="copyCuponCode('APP618FM')"
             >
-              1/28
+              商城全家
             </button>
           </div>
           <div class="col d-flex justify-content-center">
             <button
               type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('J84M2EJNU')"
+              class="btn btn-warning w-75"
+              @click="copyCuponCode('HLAPP6')"
             >
-              1/29
+              商城萊爾富
             </button>
           </div>
           <div class="col d-flex justify-content-center">
             <button
               type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('L8FERFYKQ')"
+              class="btn btn-warning w-75"
+              @click="copyCuponCode('OK6APP')"
             >
-              1/30
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('CUZ7KF9DA')"
-            >
-              1/31
+              商城OK
             </button>
           </div>
         </div>
       </div>
-      <div class="499-50 mt-5">
-        <h3 class="text-center mb-0">ㄚㄋㄚˋ+碼全站</h3>
-        <p class="text-center mb-0" style="font-size: 23px">499-50</p>
-        <div class="row row-cols-1 g-3">
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('BHWVPW925')"
-            >
-              1/25
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('BZD6YJ88T')"
-            >
-              1/26
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('U4U33SCNJ')"
-            >
-              1/27
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('GHPJQ46YH')"
-            >
-              1/28
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('AVJES9WMM')"
-            >
-              1/29
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('2CATSC4W3')"
-            >
-              1/30
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('JPMW65WM8')"
-            >
-              1/31
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="299-30 mt-5">
-        <h3 class="text-center mb-0">商城限定</h3>
-        <p class="text-center mb-0" style="font-size: 23px">299-30</p>
+      <div class="mt-5">
         <div class="row row-cols-1 g-3">
           <div class="col d-flex justify-content-center">
             <button
               type="button"
               class="btn btn-danger w-75"
-              @click="copyCuponCode('0125SP30')"
+              @click="copyCuponCode('618ATC')"
             >
-              299-30
+              全站499-50
+            </button>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-danger w-75"
+              @click="copyCuponCode('SHOPEE618')"
+            >
+              全站999-60
+            </button>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-danger w-75"
+              @click="copyCuponCode('JUNSIX60')"
+            >
+              社群賣家499-60
+            </button>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-danger w-75"
+              @click="copyCuponCode('IRAFF40')"
+            >
+              社群賣家499-40
+            </button>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-danger w-75"
+              @click="copyCuponCode('IRAFF100')"
+            >
+              社群賣家999-100
             </button>
           </div>
         </div>
       </div>
-      <div class="100-20 mt-5">
-        <h3 class="text-center mb-0">蝦皮通用</h3>
-        <p class="text-center mb-0" style="font-size: 23px">100-20</p>
-        <div class="row row-cols-1 g-3">
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('SACNY25BV')"
-            >
-              1/25
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('SACNYBV26')"
-            >
-              1/26
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('SA27CNYBV')"
-            >
-              1/27
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('SACNY28BV')"
-            >
-              1/28
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('SACNYBV29')"
-            >
-              1/29
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('SA30CNY25BV')"
-            >
-              1/30
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('SACNY31BV')"
-            >
-              1/31
-            </button>
-          </div>
-        </div>
+      <div class="d-flex mt-5 justify-content-center">
+        <img src="https://i.ibb.co/DHDNvCyy/C.png" alt="" class="w-75" />
       </div>
-      <div class="499-50 my-5">
-        <h3 class="text-center mb-0">蝦皮通用</h3>
-        <p class="text-center mb-0" style="font-size: 23px">499-50</p>
-        <div class="row row-cols-1 g-3">
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('25FNBOSHA')"
+      <div class="mt-5">
+        <div class="row row-cols-1 w-75 mx-auto g-3">
+          <div class="col px-0">
+            <a
+              href="https://s.shopee.tw/9f95t7kmMG"
+              class="btn btn-danger w-100"
+              >短影音簽到領蝦幣</a
             >
-              1/25
-            </button>
           </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('26FNBOSHA')"
+          <div class="col px-0">
+            <a href="https://s.shopee.tw/7fNyqny63" class="btn btn-danger w-100"
+              >𝟏𝟖號加碼再送100蝦</a
             >
-              1/26
-            </button>
           </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('FNBOSHA27')"
+          <div class="col px-0">
+            <a href="https://s.shopee.tw/LbLBcw6KZ" class="btn btn-danger w-100"
+              >⭐許願請聊聊✅</a
             >
-              1/27
-            </button>
           </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('FNBOSHA28')"
-            >
-              1/28
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('FNBO29SHA')"
-            >
-              1/29
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('FNBO30SHA')"
-            >
-              1/30
-            </button>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <button
-              type="button"
-              class="btn btn-danger w-75"
-              @click="copyCuponCode('FNBO31SHA')"
-            >
-              1/31
-            </button>
+          <div>
+            <img src="https://i.ibb.co/NgZcsjkW/D.png" alt="" class="w-100" />
           </div>
         </div>
+        <div class="pt-5">
+      <p class="text-center mb-1">6/18關注ㄚㄋㄚˋ直播間隨機抽</p>
+      <p class="text-center">99-20、100-20、59-10折扣券</p></div>
       </div>
     </div>
     <div
@@ -323,7 +204,7 @@ export default {
     copyCuponCode (text) {
       navigator.clipboard.writeText(text).then(() => {
         console.log('您已成功複製優惠碼!')
-        window.location.href = 'https://s.shopee.tw/3LBQFirXPy'
+        window.location.href = 'https://s.shopee.tw/1LTxyg3hCb'
       })
     }
   }
