@@ -203,7 +203,6 @@ export default {
   methods: {
     copyCuponCode (text) {
       navigator.clipboard.writeText(text).then(() => {
-        console.log('您已成功複製優惠碼!')
         window.location.href = 'https://s.shopee.tw/1LTxyg3hCb'
       })
     }
