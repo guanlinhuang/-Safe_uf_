@@ -14,7 +14,7 @@
           </div>
           <div class="col pe-0">
             <a
-              href="https://s.shopee.tw/5AgfqFQkYl"
+              href="https://s.shopee.tw/6AZIZ5lNg0"
               class="btn btn-danger w-100"
               >2</a
             >
@@ -30,19 +30,19 @@
           </div>
         </div>
         <div class="d-flex justify-content-center pt-2">
-          <img src="https://i.ibb.co/hRtJS9Vr/B-0.png" alt="" class="w-75" />
+          <img src="https://i.postimg.cc/sXtcQ5RV/B-0.png" alt="" class="w-75" />
         </div>
       </div>
       <div class="pt-5">
       <p class="text-center text-warning-emphasis">
-        點擊日期後至「優惠代碼區」直接「貼上」
+        點擊後至「優惠代碼區」直接「貼上」
       </p>
       <p class="text-center text-danger fw-bolder" style="font-size: 13px">
         * 序號於點擊時已經「自動複製」了喲 *
       </p>
       </div>
       <div class="d-flex justify-content-center">
-        <img src="https://i.ibb.co/HT2HxQ0B/A-0.png" alt="" class="w-75" />
+        <img src="https://i.postimg.cc/XqJs6sLY/A-0.png" alt="" class="w-75" />
       </div>
       <h6 class="text-center mb-0 pt-4">此由ㄚㄋㄚˋ直播主彙整</h6>
       <div class="mt-4">
@@ -151,10 +151,19 @@
               社群賣家999-100
             </button>
           </div>
+          <div class="col d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-danger w-75"
+              @click="copyCuponCode('618SPSHAF')"
+            >
+              100-20
+            </button>
+          </div>
         </div>
       </div>
       <div class="d-flex mt-5 justify-content-center">
-        <img src="https://i.ibb.co/Cps4TV3s/C.png" alt="" class="w-75" />
+        <img src="https://i.postimg.cc/ZR9H5V27/C.png" alt="" class="w-75" />
       </div>
       <div class="mt-5">
         <div class="row row-cols-1 w-75 mx-auto g-3">
@@ -176,7 +185,7 @@
             >
           </div>
           <div>
-            <img src="https://i.ibb.co/FZKvGQv/D.png" alt="" class="w-100" />
+            <img src="https://i.postimg.cc/SK1V4wTY/D.png" alt="" class="w-100" />
           </div>
         </div>
         <div class="pt-5">
@@ -186,7 +195,7 @@
      <button
               type="button"
               class="btn"
-              @click="copyCuponCode('B7W3QTRZN')" style="color:#FF95CA"
+              @click="copyCuponCode('B7W3QTRZN')" style="color:#FF95CA;font-size: 25px"
             >
               <i class="bi bi-box2-heart-fill"></i>
             </button></div>
