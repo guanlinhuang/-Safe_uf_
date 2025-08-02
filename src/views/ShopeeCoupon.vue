@@ -1,48 +1,17 @@
 <template>
   <div class="home">
     <div class="container">
-      <h3 class="text-center my-4 text-danger">618全民年中慶</h3>
-       <div class="mt-4">
-        <h3 class="text-center mb-0">618購物節年中慶活動、免運一次看！</h3>
-        <div class="row w-75 mx-auto pt-2">
-          <div class="col ps-0">
-            <a
-              href="https://s.shopee.tw/10rCQCKYfi"
-              class="btn btn-danger w-100"
-              >1</a
-            >
-          </div>
-          <div class="col pe-0">
-            <a
-              href="https://s.shopee.tw/6AZIZ5lNg0"
-              class="btn btn-danger w-100"
-              >2</a
-            >
-          </div>
-        </div>
-        <div class="row w-75 mx-auto pt-2">
-          <div class="col px-0">
-            <a
-              href="https://s.shopee.tw/5VI2lgm0ob"
-              class="btn btn-danger w-100"
-              >直播活動券預先領</a
-            >
-          </div>
-        </div>
-        <div class="d-flex justify-content-center pt-2">
-          <img src="https://i.postimg.cc/sXtcQ5RV/B-0.png" alt="" class="w-75" />
-        </div>
-      </div>
-      <div class="pt-5">
-      <p class="text-center text-warning-emphasis">
-        點擊後至「優惠代碼區」直接「貼上」
-      </p>
-      <p class="text-center text-danger fw-bolder" style="font-size: 13px">
-        * 序號於點擊時已經「自動複製」了喲 *
-      </p>
+      <h3 class="text-center my-4 text-danger">蝦皮購物</h3>
+      <div>
+        <p class="text-center text-warning-emphasis">
+          點擊後至「優惠代碼區」直接「貼上」
+        </p>
+        <p class="text-center text-danger fw-bolder" style="font-size: 13px">
+          * 序號於點擊時已經「自動複製」了喲 *
+        </p>
       </div>
       <div class="d-flex justify-content-center">
-        <img src="https://i.postimg.cc/XqJs6sLY/A-0.png" alt="" class="w-75" />
+        <img src="https://meee.com.tw/87SskOK.png" alt="" class="w-75" />
       </div>
       <h6 class="text-center mb-0 pt-4">此由ㄚㄋㄚˋ直播主彙整</h6>
       <div class="mt-4">
@@ -165,42 +134,10 @@
       <div class="d-flex mt-5 justify-content-center">
         <img src="https://i.postimg.cc/ZR9H5V27/C.png" alt="" class="w-75" />
       </div>
-      <div class="mt-5">
-        <div class="row row-cols-1 w-75 mx-auto g-3">
-          <div class="col px-0">
-            <a
-              href="https://s.shopee.tw/9f95t7kmMG"
-              class="btn btn-danger w-100"
-              >短影音簽到領蝦幣</a
-            >
-          </div>
-          <div class="col px-0">
-            <a href="https://s.shopee.tw/7fNyqny636" class="btn btn-danger w-100"
-              >𝟏𝟖號加碼再送100蝦</a
-            >
-          </div>
-          <div class="col px-0">
-            <a href="https://s.shopee.tw/LbLBcw6KZ" class="btn btn-danger w-100"
-              >⭐許願請聊聊✅</a
-            >
-          </div>
-          <div>
-            <img src="https://i.postimg.cc/SK1V4wTY/D.png" alt="" class="w-100" />
-          </div>
-        </div>
-        <div class="pt-5">
-      <p class="text-center mb-1">6/18關注ㄚㄋㄚˋ直播間隨機抽</p>
-      <p class="text-center mb-0">99-20、100-20、59-10折扣券</p>
-      <div class="d-flex justify-content-center">
-     <button
-              type="button"
-              class="btn"
-              @click="copyCuponCode('B7W3QTRZN')" style="color:#FF95CA;font-size: 25px"
-            >
-              <i class="bi bi-box2-heart-fill"></i>
-            </button></div>
+      <div class="my-4">
+          <p class="text-center mb-1">關注ㄚㄋㄚˋ直播間隨機抽</p>
+          <p class="text-center mb-0">99-20、100-20、59-10折扣券</p>
       </div>
-    </div>
     </div>
     <div
       class="follow d-flex justify-content-center py-3 bg-black align-items-center"

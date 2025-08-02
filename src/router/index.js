@@ -3,8 +3,8 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: () => import('../views/HomeView.vue')
+    name: 'ShopeeCoupon',
+    component: () => import('../views/0731ShopeeCoupon.vue')
   }
   // {
   //   path: '/about',
